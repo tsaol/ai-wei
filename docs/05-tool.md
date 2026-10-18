@@ -15,7 +15,7 @@
 只依赖 Python 3.9+ 标准库。
 
 ```bash
-git clone https://github.com/tsaol/ai-flavor && cd ai-flavor
+git clone https://github.com/tsaol/ai-wei && cd ai-wei
 export PYTHONPATH=tools
 
 python -m aiflavor 文章.txt                  # 终端输出

@@ -54,7 +54,7 @@
 只依赖 Python 3.9+ 标准库，中英文都能用。**它不是 AI 检测器**，分数只适合比较同一篇文字改稿前后的变化。它适合检查说明文、报告、公文、营销文；对散文和小说基本无效（见第六章）。
 
 ```bash
-git clone https://github.com/tsaol/ai-flavor && cd ai-flavor
+git clone https://github.com/tsaol/ai-wei && cd ai-wei
 export PYTHONPATH=tools
 python -m aiflavor examples/ai_sample_zh.txt examples/rewrite_zh.txt   # 对比两个版本
 python -m aiflavor 文章.txt --html 报告.html                            # 高亮可疑的地方

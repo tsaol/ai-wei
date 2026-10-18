@@ -37,7 +37,7 @@ PAGES = {
 def fetch(page: str) -> str:
     u = "https://zh.wikisource.org/w/api.php?" + urllib.parse.urlencode(
         {"action": "parse", "page": page, "prop": "text", "format": "json", "redirects": 1})
-    req = urllib.request.Request(u, headers={"User-Agent": "ai-flavor-research/0.1 (https://github.com/tsaol/ai-flavor)"})
+    req = urllib.request.Request(u, headers={"User-Agent": "ai-wei-research/0.1 (https://github.com/tsaol/ai-wei)"})
     d = json.load(urllib.request.urlopen(req, timeout=30))
     h = re.sub(r"<(table|style|script|sup)[\s\S]*?</\1>", "", d["parse"]["text"]["*"])
     paras = [html.unescape(re.sub("<[^>]+>", "", p)).strip() for p in re.findall(r"<p>([\s\S]*?)</p>", h)]
