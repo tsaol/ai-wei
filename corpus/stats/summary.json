@@ -1,60 +1,119 @@
 {
  "coolshell": {
-  "n": 58,
-  "years": "2010–2023",
-  "chars_zh": 2719.5,
-  "code_blocks": 0.5,
-  "code_share": 0.013,
+  "n": 60,
+  "years": "2004–2023",
+  "chars_zh": 2531.0,
+  "code_blocks": 0.0,
+  "code_share": 0.0,
   "inline_code_per_k": 0.0,
-  "numbers_per_k": 9.12,
-  "headings_per_k": 1.955,
-  "list_line_share": 0.36,
-  "i_per_k": 4.27,
-  "we_per_k": 3.31,
-  "questions_per_k": 1.25,
-  "judgment_per_k": 1.68,
-  "hedge_per_k": 1.265,
-  "links_per_k": 6.29,
-  "sent_len_median": 33.75,
-  "sent_len_cv": 0.764,
-  "para_len_median": 40.0,
-  "aiflavor_score": 24.75,
-  "aiflavor_hits_per_k": 0.805,
-  "opens_with_benwen": 0.19,
-  "opens_with_question": 0.0,
-  "has_summary_section": 0.172,
+  "numbers_per_k": 7.125,
+  "headings_per_k": 1.245,
+  "list_line_share": 0.274,
+  "i_per_k": 4.65,
+  "we_per_k": 3.295,
+  "questions_per_k": 1.3,
+  "judgment_per_k": 1.8,
+  "hedge_per_k": 1.24,
+  "links_per_k": 1.175,
+  "sent_len_median": 34.0,
+  "sent_len_cv": 0.745,
+  "para_len_median": 55.25,
+  "aiflavor_score": 23.95,
+  "aiflavor_hits_per_k": 1.105,
+  "opens_with_benwen": 0.117,
+  "opens_with_question": 0.033,
+  "has_summary_section": 0.083,
   "top_aiflavor_labels": [
    [
-    "四字格连排",
-    28
+    "加粗小标题+冒号",
+    81
    ],
    [
     "当……时",
-    25
+    41
    ],
    [
-    "有以下几种情况：",
-    25
+    "四字格连排",
+    33
    ],
    [
     "不是……而是……",
-    25
+    30
+   ],
+   [
+    "有以下几种情况：",
+    19
    ],
    [
     "这意味着",
     18
    ],
    [
+    "说白了(起手)",
+    12
+   ],
+   [
     "引号造词叠用",
-    13
+    12
+   ]
+  ]
+ },
+ "infoq": {
+  "n": 1,
+  "years": "2026–2026",
+  "chars_zh": 11967,
+  "code_blocks": 0,
+  "code_share": 0.0,
+  "inline_code_per_k": 0.0,
+  "numbers_per_k": 18.97,
+  "headings_per_k": 3.01,
+  "list_line_share": 0.436,
+  "i_per_k": 0.0,
+  "we_per_k": 6.35,
+  "questions_per_k": 1.75,
+  "judgment_per_k": 0.25,
+  "hedge_per_k": 0.92,
+  "links_per_k": 0.17,
+  "sent_len_median": 42,
+  "sent_len_cv": 0.73,
+  "para_len_median": 50,
+  "aiflavor_score": 42.5,
+  "aiflavor_hits_per_k": 2.42,
+  "opens_with_benwen": 0.0,
+  "opens_with_question": 0.0,
+  "has_summary_section": 1.0,
+  "top_aiflavor_labels": [
+   [
+    "全方位/多维度",
+    8
    ],
    [
-    "加粗小标题+冒号",
-    10
+    "重塑/打造X生态",
+    4
    ],
    [
-    "一方面……另一方面",
-    10
+    "在……背景下/随着……",
+    3
+   ],
+   [
+    "不仅……更……",
+    2
+   ],
+   [
+    "不是……而是……",
+    2
+   ],
+   [
+    "赋能",
+    1
+   ],
+   [
+    "众所周知",
+    1
+   ],
+   [
+    "扮演……角色",
+    1
    ]
   ]
  },

@@ -1,6 +1,6 @@
 # 技术写作样例索引
 
-共 178 篇。只有阮一峰的文章收录了全文（[`ruanyifeng/`](ruanyifeng/)），其他只有链接和统计。
+共 181 篇。只有阮一峰的文章收录了全文（[`ruanyifeng/`](ruanyifeng/)），其他只有链接和统计。酷壳的链接指向 GitHub 上的 Markdown 存档（原站文章页已无法访问）。
 
 列：中文字数、代码块数、每千字的数字个数、句长中位数（字）、`aiflavor` 指数。
 
@@ -69,68 +69,70 @@
 | 2019-04 | [OAuth 2.0 的一个简单解释](https://www.ruanyifeng.com/blog/2019/04/oauth_design.html) | 1171 | 0 | 5.98 | 23.0 | 23.9 |
 | 2019-07 | [iMovie 入门教程：视频编辑的利器](https://www.ruanyifeng.com/blog/2019/07/imovie-tutorial.html) | 1509 | 0 | 1.99 | 21.0 | 13.2 |
 
-## 陈皓（58 篇）
+## 陈皓（60 篇）
 
 | 日期 | 标题 | 字数 | 代码块 | 数字/千字 | 句长 | AI 味指数 |
 |---|---|---|---|---|---|---|
-| 2010-03-30 | [“21天教你学会C++”](https://coolshell.cn/articles/2250.html) | 2920 | 0 | 25.34 | 32 | 26.1 |
-| 2010-04-09 | [Unix传奇(下篇)](https://coolshell.cn/articles/2324.html) | 4539 | 1 | 8.81 | 30 | 25.7 |
-| 2011-03-21 | [“火柴棍式”程序员面试题](https://coolshell.cn/articles/3961.html) | 380 | 3 | 28.95 | 29.0 | 31.9 |
-| 2011-12-20 | [三个事和三个问题](https://coolshell.cn/articles/6142.html) | 3875 | 0 | 5.94 | 30 | 23.0 |
-| 2012-04-27 | [做个环保主义的程序员](https://coolshell.cn/articles/7186.html) | 3173 | 0 | 6.62 | 35 | 24.3 |
-| 2012-07-11 | [28个Unix/Linux的命令行神器](https://coolshell.cn/articles/7829.html) | 2555 | 0 | 7.83 | 22 | 22.8 |
-| 2012-09-07 | [无锁队列的实现](https://coolshell.cn/articles/8239.html) | 2804 | 12 | 20.68 | 28.5 | 31.9 |
-| 2012-12-28 | [程序算法与人生选择](https://coolshell.cn/articles/8790.html) | 3484 | 0 | 5.45 | 32 | 24.3 |
-| 2013-01-09 | [应该知道的Linux技巧](https://coolshell.cn/articles/8883.html) | 2720 | 4 | 11.4 | 21 | 29.6 |
-| 2013-02-20 | [sed 简明教程](https://coolshell.cn/articles/9104.html) | 1579 | 31 | 12.67 | 25 | 21.7 |
-| 2013-03-01 | [“作环保的程序员，从不用百度开始”](https://coolshell.cn/articles/9308.html) | 2307 | 1 | 20.37 | 27.5 | 35.8 |
-| 2013-05-10 | [疫苗：Java HashMap的死循环](https://coolshell.cn/articles/9606.html) | 1254 | 5 | 25.52 | 23 | 22.9 |
-| 2014-01-20 | [分布式系统的事务处理](https://coolshell.cn/articles/10910.html) | 7933 | 0 | 17.14 | 33 | 32.6 |
-| 2014-04-12 | [从Code Review 谈如何做技术](https://coolshell.cn/articles/11432.html) | 4591 | 0 | 12.2 | 31 | 26.4 |
-| 2014-05-28 | [TCP 的那些事儿（上）](https://coolshell.cn/articles/11564.html) | 4638 | 2 | 31.05 | 32.0 | 32.7 |
-| 2014-08-05 | [谜题的答案和活动的心得体会](https://coolshell.cn/articles/11847.html) | 3782 | 0 | 16.66 | 28 | 23.3 |
-| 2014-09-07 | [互联网之子 – Aaron Swartz](https://coolshell.cn/articles/11928.html) | 3169 | 0 | 23.35 | 27.5 | 15.4 |
-| 2014-10-23 | [Leetcode 编程训练](https://coolshell.cn/articles/12052.html) | 1361 | 0 | 13.23 | 35 | 22.1 |
-| 2014-12-10 | [DHH 谈混合移动应用开发](https://coolshell.cn/articles/12225.html) | 2253 | 0 | 26.19 | 31 | 25.1 |
-| 2015-04-14 | [关于移动端的钓鱼式攻击](https://coolshell.cn/articles/17066.html) | 5076 | 0 | 1.77 | 41.0 | 26.8 |
-| 2016-07-27 | [缓存更新的套路](https://coolshell.cn/articles/17416.html) | 2329 | 0 | 4.29 | 33.5 | 23.6 |
-| 2016-08-18 | [这多年来我一直在钻研的技术](https://coolshell.cn/articles/17446.html) | 3272 | 0 | 9.17 | 39 | 23.3 |
-| 2016-09-18 | [什么是工程师文化？](https://coolshell.cn/articles/17497.html) | 5179 | 0 | 5.21 | 33.0 | 39.3 |
-| 2016-10-23 | [如何读懂并写出装逼的函数式代码](https://coolshell.cn/articles/17524.html) | 1634 | 21 | 3.06 | 38 | 19.9 |
-| 2017-01-07 | [从 MongoDB “赎金事件” 看安全问题](https://coolshell.cn/articles/17607.html) | 1925 | 1 | 34.81 | 32.0 | 23.3 |
-| 2017-01-19 | [Chrome开发者工具的小技巧](https://coolshell.cn/articles/17634.html) | 1349 | 2 | 8.9 | 30.0 | 26.1 |
-| 2017-02-02 | [从Gitlab误删除数据库想到的](https://coolshell.cn/articles/17680.html) | 4173 | 0 | 21.33 | 34.0 | 32.4 |
-| 2017-04-05 | [如何重构“箭头型”代码](https://coolshell.cn/articles/17757.html) | 2535 | 10 | 9.07 | 29 | 27.3 |
-| 2017-06-01 | [Go编程模式：修饰器](https://coolshell.cn/articles/17929.html) | 1610 | 12 | 5.59 | 33 | 35.8 |
-| 2017-07-16 | [Linux PID 1 和 Systemd](https://coolshell.cn/articles/17998.html) | 4833 | 0 | 5.79 | 27 | 22.3 |
-| 2017-07-25 | [API设计原则 – Qt官网的设计实践总结](https://coolshell.cn/articles/18024.html) | 7958 | 0 | 16.34 | 27 | 19.8 |
-| 2017-09-19 | [关于Facebook 的 React 专利许可证](https://coolshell.cn/articles/18140.html) | 4883 | 0 | 6.55 | 43 | 20.7 |
-| 2018-05-29 | [程序员练级攻略（2018) 与我的专栏](https://coolshell.cn/articles/18360.html) | 1782 | 0 | 5.61 | 37.0 | 23.5 |
-| 2019-02-26 | [谈谈我的“三观”](https://coolshell.cn/articles/19085.html) | 6517 | 0 | 1.23 | 55 | 23.1 |
-| 2019-03-17 | [打造高效的工作环境 – Shell 篇](https://coolshell.cn/articles/19219.html) | 2825 | 7 | 6.37 | 33 | 22.4 |
-| 2019-05-09 | [HTTP API 认证授权术](https://coolshell.cn/articles/19395.html) | 5164 | 10 | 22.08 | 36.5 | 30.8 |
-| 2019-06-22 | [如何超过大多数人](https://coolshell.cn/articles/19464.html) | 5221 | 0 | 4.98 | 45 | 26.5 |
-| 2019-10-01 | [HTTP的前世今生](https://coolshell.cn/articles/19840.html) | 3709 | 0 | 35.32 | 34 | 19.0 |
-| 2019-11-03 | [Unix 50 年：Ken Thompson 的密码](https://coolshell.cn/articles/19996.html) | 2969 | 1 | 22.57 | 35.5 | 34.7 |
-| 2020-01-31 | [MegaEase的远程工作文化](https://coolshell.cn/articles/20765.html) | 5987 | 0 | 8.85 | 26 | 26.0 |
-| 2020-04-04 | [Rust语言的编程范式](https://coolshell.cn/articles/20845.html) | 8616 | 34 | 1.39 | 33.0 | 32.3 |
-| 2020-08-07 | [程序员如何把控自己的职业](https://coolshell.cn/articles/20977.html) | 5876 | 1 | 5.11 | 36.5 | 20.0 |
-| 2020-12-18 | [Go编程模式：切片，接口，时间和性能](https://coolshell.cn/articles/21128.html) | 2179 | 13 | 8.26 | 39 | 31.9 |
-| 2020-12-22 | [Go 编程模式：错误处理](https://coolshell.cn/articles/21140.html) | 2413 | 14 | 4.14 | 39 | 21.2 |
-| 2020-12-24 | [Go编程模式：Map-Reduce](https://coolshell.cn/articles/21164.html) | 1905 | 21 | 11.55 | 44.0 | 32.1 |
-| 2020-12-25 | [Go 编程模式：Go Generation](https://coolshell.cn/articles/21179.html) | 1748 | 14 | 5.72 | 45 | 22.1 |
-| 2020-12-26 | [Go编程模式：Pipeline](https://coolshell.cn/articles/21228.html) | 966 | 13 | 13.46 | 56.0 | 30.7 |
-| 2020-12-26 | [Go 编程模式：k8s Visitor 模式](https://coolshell.cn/articles/21263.html) | 1461 | 11 | 4.79 | 47.0 | 30.4 |
-| 2021-09-04 | [Go编程模式 ： 泛型编程](https://coolshell.cn/articles/21615.html) | 2165 | 23 | 7.85 | 44 | 28.7 |
-| 2021-11-19 | [源代码特洛伊木马攻击](https://coolshell.cn/articles/21649.html) | 1570 | 3 | 17.83 | 40.5 | 15.1 |
-| 2022-01-02 | [网络数字身份认证术](https://coolshell.cn/articles/21708.html) | 2719 | 4 | 8.83 | 35 | 31.7 |
-| 2022-02-12 | [谈谈公司对员工的监控](https://coolshell.cn/articles/22157.html) | 1937 | 0 | 6.71 | 40 | 21.6 |
-| 2022-05-05 | [ETCD的内存问题](https://coolshell.cn/articles/22242.html) | 2574 | 1 | 23.31 | 30.0 | 28.4 |
-| 2022-07-19 | [从一次经历谈 TIME_WAIT 的那些事](https://coolshell.cn/articles/22263.html) | 2765 | 3 | 15.55 | 35.5 | 19.7 |
-| 2022-10-14 | [聊聊团队协同和协同工具](https://coolshell.cn/articles/22298.html) | 2407 | 0 | 2.08 | 40.0 | 24.4 |
-| 2022-12-13 | [感染新冠的经历](https://coolshell.cn/articles/22341.html) | 2598 | 0 | 31.56 | 34 | 19.3 |
-| 2023-02-03 | [聊聊 nostr 和 审查](https://coolshell.cn/articles/22367.html) | 2055 | 0 | 9.25 | 41.5 | 23.1 |
-| 2023-05-08 | [是微服务架构不香还是云不香？](https://coolshell.cn/articles/22422.html) | 2127 | 0 | 24.45 | 34.5 | 25.9 |
+| 2004-06-23 | [C++ STL string的Copy-On-Write技术](https://github.com/slan-ning/coolshell-markdown/blob/main/2004/C++%20STL%20string的Copy-On-Write技术.md) | 3956 | 11 | 10.62 | 27.5 | 25.2 |
+| 2006-11-16 | [C-C++返回内部静态成员的陷阱](https://github.com/slan-ning/coolshell-markdown/blob/main/2006/C-C++返回内部静态成员的陷阱.md) | 1643 | 2 | 14.61 | 23 | 13.9 |
+| 2007-12-18 | [C++ 虚函数表解析](https://github.com/slan-ning/coolshell-markdown/blob/main/2007/C++%20虚函数表解析.md) | 2487 | 8 | 14.07 | 28 | 25.5 |
+| 2008-10-15 | [C++ 对象的内存布局](https://github.com/slan-ning/coolshell-markdown/blob/main/2008/C++%20对象的内存布局.md) | 2785 | 12 | 31.6 | 29 | 21.7 |
+| 2009-03-02 | [Java书籍Top 10](https://github.com/slan-ning/coolshell-markdown/blob/main/2009/Java书籍Top%2010.md) | 1934 | 0 | 21.72 | 39 | 30.9 |
+| 2009-03-10 | [怎样做一个 Program Manager](https://github.com/slan-ning/coolshell-markdown/blob/main/2009/怎样做一个%20Program%20Manager.md) | 1719 | 0 | 8.73 | 24.5 | 20.8 |
+| 2009-06-15 | [编程命名中的7+1个提示](https://github.com/slan-ning/coolshell-markdown/blob/main/2009/编程命名中的7+1个提示.md) | 1609 | 4 | 4.35 | 34.0 | 29.3 |
+| 2009-06-16 | [高级Unix命令](https://github.com/slan-ning/coolshell-markdown/blob/main/2009/高级Unix命令.md) | 2004 | 0 | 37.92 | 57 | 11.2 |
+| 2010-01-06 | [程序命名的一些提示](https://github.com/slan-ning/coolshell-markdown/blob/main/2010/程序命名的一些提示.md) | 1973 | 0 | 1.52 | 39.0 | 23.7 |
+| 2010-01-22 | [各种流行的编程风格](https://github.com/slan-ning/coolshell-markdown/blob/main/2010/各种流行的编程风格.md) | 1533 | 0 | 5.87 | 31.0 | 17.5 |
+| 2010-07-15 | [五个方法成为更好的程序员](https://github.com/slan-ning/coolshell-markdown/blob/main/2010/五个方法成为更好的程序员.md) | 2517 | 0 | 1.19 | 37.0 | 24.6 |
+| 2010-07-18 | [为什么敏捷方法能在软件开发中行之有效？](https://github.com/slan-ning/coolshell-markdown/blob/main/2010/为什么敏捷方法能在软件开发中行之有效？.md) | 1846 | 0 | 1.63 | 49 | 10.4 |
+| 2011-01-25 | [食客还是大厨](https://github.com/slan-ning/coolshell-markdown/blob/main/2011/食客还是大厨.md) | 2545 | 0 | 2.36 | 31.0 | 38.7 |
+| 2011-01-27 | [SOAP的S是Simple](https://github.com/slan-ning/coolshell-markdown/blob/main/2011/SOAP的S是Simple.md) | 2094 | 0 | 1.91 | 13.5 | 52.9 |
+| 2011-07-06 | [软件公司的两种管理方式](https://github.com/slan-ning/coolshell-markdown/blob/main/2011/软件公司的两种管理方式.md) | 2191 | 0 | 3.19 | 34 | 28.2 |
+| 2011-07-12 | [给程序员新手的一些建议](https://github.com/slan-ning/coolshell-markdown/blob/main/2011/给程序员新手的一些建议.md) | 1600 | 0 | 12.5 | 36.5 | 26.2 |
+| 2012-01-04 | [程序员因为女孩而美丽！](https://github.com/slan-ning/coolshell-markdown/blob/main/2012/程序员因为女孩而美丽！.md) | 24672 | 0 | 3.77 | 26 | 18.6 |
+| 2012-01-09 | [Javascript 面向对象编程](https://github.com/slan-ning/coolshell-markdown/blob/main/2012/Javascript%20面向对象编程.md) | 1685 | 27 | 7.12 | 27.0 | 16.5 |
+| 2012-06-13 | [抄袭，腾讯 和 产品](https://github.com/slan-ning/coolshell-markdown/blob/main/2012/抄袭，腾讯%20和%20产品.md) | 3010 | 0 | 6.64 | 36 | 29.7 |
+| 2012-06-20 | [性能调优攻略](https://github.com/slan-ning/coolshell-markdown/blob/main/2012/性能调优攻略.md) | 10894 | 3 | 9.64 | 30 | 27.3 |
+| 2013-01-09 | [应该知道的Linux技巧](https://github.com/slan-ning/coolshell-markdown/blob/main/2013/应该知道的Linux技巧.md) | 2642 | 4 | 9.84 | 20 | 29.3 |
+| 2013-02-01 | [从面向对象的设计模式看软件设计](https://github.com/slan-ning/coolshell-markdown/blob/main/2013/从面向对象的设计模式看软件设计.md) | 4939 | 0 | 9.72 | 34.0 | 28.3 |
+| 2013-07-08 | [Alan Cox：大教堂、市集与市议会](https://github.com/slan-ning/coolshell-markdown/blob/main/2013/Alan%20Cox：大教堂、市集与市议会.md) | 2255 | 0 | 7.54 | 35 | 13.1 |
+| 2013-07-21 | [C语言全局变量那些事儿](https://github.com/slan-ning/coolshell-markdown/blob/main/2013/C语言全局变量那些事儿.md) | 2934 | 10 | 4.09 | 46.5 | 17.6 |
+| 2014-01-20 | [分布式系统的事务处理](https://github.com/slan-ning/coolshell-markdown/blob/main/2014/分布式系统的事务处理.md) | 7837 | 0 | 16.97 | 32 | 32.6 |
+| 2014-01-28 | [一个“蝇量级” C 语言协程库](https://github.com/slan-ning/coolshell-markdown/blob/main/2014/一个“蝇量级”%20C%20语言协程库.md) | 4606 | 16 | 1.52 | 41.0 | 11.7 |
+| 2014-05-07 | [面向GC的Java编程](https://github.com/slan-ning/coolshell-markdown/blob/main/2014/面向GC的Java编程.md) | 2820 | 1 | 0.35 | 36 | 33.6 |
+| 2014-05-26 | [「我只是认真」聊聊工匠情怀](https://github.com/slan-ning/coolshell-markdown/blob/main/2014/「我只是认真」聊聊工匠情怀.md) | 3201 | 0 | 1.56 | 37 | 19.8 |
+| 2015-04-14 | [关于移动端的钓鱼式攻击](https://github.com/slan-ning/coolshell-markdown/blob/main/2015/关于移动端的钓鱼式攻击.md) | 4987 | 0 | 1.6 | 40 | 26.9 |
+| 2015-04-16 | [Docker基础技术：Linux Namespace（上）](https://github.com/slan-ning/coolshell-markdown/blob/main/2015/Docker基础技术：Linux%20Namespace（上）.md) | 1891 | 21 | 13.75 | 32.5 | 15.0 |
+| 2015-08-24 | [Docker基础技术：AUFS](https://github.com/slan-ning/coolshell-markdown/blob/main/2015/Docker基础技术：AUFS.md) | 2568 | 11 | 7.01 | 30.0 | 24.3 |
+| 2015-08-26 | [Docker基础技术：DeviceMapper](https://github.com/slan-ning/coolshell-markdown/blob/main/2015/Docker基础技术：DeviceMapper.md) | 1905 | 19 | 23.1 | 38 | 19.5 |
+| 2016-07-06 | [性能测试应该怎么做？](https://github.com/slan-ning/coolshell-markdown/blob/main/2016/性能测试应该怎么做？.md) | 1762 | 0 | 37.46 | 31 | 34.7 |
+| 2016-07-11 | [为什么我不在微信公众号上写文章](https://github.com/slan-ning/coolshell-markdown/blob/main/2016/为什么我不在微信公众号上写文章.md) | 2433 | 0 | 2.06 | 34 | 26.7 |
+| 2016-08-21 | [关于高可用的系统](https://github.com/slan-ning/coolshell-markdown/blob/main/2016/关于高可用的系统.md) | 3057 | 0 | 27.48 | 42 | 34.4 |
+| 2016-09-18 | [什么是工程师文化？](https://github.com/slan-ning/coolshell-markdown/blob/main/2016/什么是工程师文化？.md) | 5097 | 0 | 4.9 | 32.5 | 39.2 |
+| 2017-01-07 | [从 MongoDB “赎金事件” 看安全问题](https://github.com/slan-ning/coolshell-markdown/blob/main/2017/从%20MongoDB%20“赎金事件”%20看安全问题.md) | 1839 | 1 | 35.89 | 30.0 | 19.7 |
+| 2017-02-02 | [从Gitlab误删除数据库想到的](https://github.com/slan-ning/coolshell-markdown/blob/main/2017/从Gitlab误删除数据库想到的.md) | 4084 | 0 | 21.06 | 33.5 | 32.4 |
+| 2017-07-09 | [我看绩效考核](https://github.com/slan-ning/coolshell-markdown/blob/main/2017/我看绩效考核.md) | 4339 | 0 | 9.45 | 39.0 | 24.2 |
+| 2017-07-16 | [Linux PID 1 和 Systemd](https://github.com/slan-ning/coolshell-markdown/blob/main/2017/Linux%20PID%201%20和%20Systemd.md) | 4767 | 0 | 5.45 | 27 | 20.1 |
+| 2018-01-02 | [关于我”极客时间“的专栏](https://github.com/slan-ning/coolshell-markdown/blob/main/2018/关于我”极客时间“的专栏.md) | 4503 | 0 | 6.66 | 32 | 16.1 |
+| 2018-05-29 | [程序员练级攻略（2018) 与我的专栏](https://github.com/slan-ning/coolshell-markdown/blob/main/2018/程序员练级攻略（2018)%20与我的专栏.md) | 1693 | 0 | 4.73 | 37.0 | 19.2 |
+| 2018-12-08 | [记一次Kubernetes-Docker网络排障](https://github.com/slan-ning/coolshell-markdown/blob/main/2018/记一次Kubernetes-Docker网络排障.md) | 3412 | 6 | 9.38 | 32 | 18.6 |
+| 2019-02-26 | [谈谈我的“三观”](https://github.com/slan-ning/coolshell-markdown/blob/main/2019/谈谈我的“三观”.md) | 6422 | 0 | 0.93 | 52 | 20.8 |
+| 2019-03-17 | [打造高效的工作环境 – Shell 篇](https://github.com/slan-ning/coolshell-markdown/blob/main/2019/打造高效的工作环境%20–%20Shell%20篇.md) | 2739 | 7 | 5.48 | 32 | 22.3 |
+| 2019-07-21 | [50年前的登月程序和程序员有多硬核](https://github.com/slan-ning/coolshell-markdown/blob/main/2019/50年前的登月程序和程序员有多硬核.md) | 2068 | 0 | 26.11 | 41.5 | 9.3 |
+| 2019-10-01 | [HTTP的前世今生](https://github.com/slan-ning/coolshell-markdown/blob/main/2019/HTTP的前世今生.md) | 3626 | 0 | 35.58 | 32 | 16.3 |
+| 2020-01-31 | [MegaEase的远程工作文化](https://github.com/slan-ning/coolshell-markdown/blob/main/2020/MegaEase的远程工作文化.md) | 5901 | 0 | 8.64 | 25 | 26.0 |
+| 2020-03-01 | [与程序员相关的CPU缓存知识](https://github.com/slan-ning/coolshell-markdown/blob/main/2020/与程序员相关的CPU缓存知识.md) | 4953 | 7 | 35.94 | 31.0 | 27.7 |
+| 2020-12-16 | [百度为什么掉队了](https://github.com/slan-ning/coolshell-markdown/blob/main/2020/百度为什么掉队了.md) | 2014 | 0 | 5.96 | 35.0 | 21.7 |
+| 2020-12-18 | [Go编程模式：切片，接口，时间和性能](https://github.com/slan-ning/coolshell-markdown/blob/main/2020/Go编程模式：切片，接口，时间和性能.md) | 2105 | 13 | 7.13 | 37 | 28.1 |
+| 2021-09-04 | [Go编程模式 ： 泛型编程](https://github.com/slan-ning/coolshell-markdown/blob/main/2021/Go编程模式%20：%20泛型编程.md) | 2095 | 23 | 6.68 | 42 | 25.2 |
+| 2021-12-21 | [我做系统架构的一些原则](https://github.com/slan-ning/coolshell-markdown/blob/main/2021/我做系统架构的一些原则.md) | 7463 | 0 | 2.81 | 34.5 | 36.9 |
+| 2022-01-02 | [网络数字身份认证术](https://github.com/slan-ning/coolshell-markdown/blob/main/2022/网络数字身份认证术.md) | 2637 | 4 | 8.34 | 35 | 32.1 |
+| 2022-02-12 | [谈谈公司对员工的监控](https://github.com/slan-ning/coolshell-markdown/blob/main/2022/谈谈公司对员工的监控.md) | 2012 | 0 | 5.47 | 40 | 21.4 |
+| 2022-07-19 | [从一次经历谈 TIME_WAIT 的那些事](https://github.com/slan-ning/coolshell-markdown/blob/main/2022/从一次经历谈%20TIME_WAIT%20的那些事.md) | 2683 | 3 | 15.28 | 34.5 | 17.6 |
+| 2022-10-14 | [聊聊团队协同和协同工具](https://github.com/slan-ning/coolshell-markdown/blob/main/2022/聊聊团队协同和协同工具.md) | 2315 | 0 | 1.3 | 39.5 | 20.3 |
+| 2023-02-03 | [聊聊 nostr 和 审查](https://github.com/slan-ning/coolshell-markdown/blob/main/2023/聊聊%20nostr%20和%20审查.md) | 1971 | 0 | 15.22 | 39.0 | 22.9 |
+| 2023-02-12 | [我看ChatGPT: 为啥谷歌掉了千亿美金](https://github.com/slan-ning/coolshell-markdown/blob/main/2023/我看ChatGPT-%20为啥谷歌掉了千亿美金.md) | 1535 | 0 | 1.95 | 95.5 | 19.0 |
+| 2023-05-08 | [是微服务架构不香还是云不香？](https://github.com/slan-ning/coolshell-markdown/blob/main/2023/是微服务架构不香还是云不香？.md) | 2048 | 0 | 23.44 | 34 | 25.8 |
 
 ## 美团技术团队（60 篇）
 
@@ -196,3 +198,9 @@
 | 2022-07-14 | [工程效能CI/CD之流水线引擎的建设实践](https://tech.meituan.com/2022/07/14/CICD-Pipeline.html) | 7960 | 0 | 7.91 | 47 | 29.5 |
 | 2022-09-01 | [基于AI算法的数据库异常监测系统的设计与实现](https://tech.meituan.com/2022/09/01/Database-Monitoring-Based-On-AI.html) | 4413 | 0 | 43.51 | 46.0 | 33.0 |
 | 2022-11-03 | [美团高性能终端实时日志系统建设实践](https://tech.meituan.com/2022/11/03/Logan-Real-Time-Log.html) | 4573 | 0 | 13.56 | 49 | 36.2 |
+
+## 快手技术团队（InfoQ）（1 篇）
+
+| 日期 | 标题 | 字数 | 代码块 | 数字/千字 | 句长 | AI 味指数 |
+|---|---|---|---|---|---|---|
+| 2026-02-09 | [3 年、1 万人，快手技术团队首次系统披露 AI 研发范式升级历程](https://www.infoq.cn/article/9rX1Ov951gKtaTmQb8Jq) | 11967 | 0 | 18.97 | 42 | 42.5 |
