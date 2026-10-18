@@ -3,3 +3,8 @@ https://creativecommons.org/licenses/by/4.0/
 
 The text in docs/ is licensed under CC BY 4.0. Code (tools/, tests/, experiment/) is under the MIT License (see LICENSE).
 Quoted material and cited papers remain the property of their authors.
+
+Exception / 例外：corpus/ruanyifeng/ 下的文章版权归阮一峰所有，按其原文声明的
+"自由转载-非商用-非衍生-保持署名"（CC BY-NC-ND 3.0）条件转载，不适用本仓库的 MIT 和 CC BY 4.0 许可。
+The articles in corpus/ruanyifeng/ are © Ruan Yifeng, redistributed under CC BY-NC-ND 3.0 as stated on the original pages.
+They are NOT covered by this repository's MIT or CC BY 4.0 licenses.

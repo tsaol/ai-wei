@@ -48,6 +48,7 @@
 | [第六章 对照实验](docs/06-experiment.md) | 公有领域散文 vs 三个模型、两种提示词 |
 | [第七章 案例：模仿一位作者写金句](docs/07-case-aphorism.md) | 人设、风格说明和"编造经历"的问题 |
 | [第八章 伦理和规则](docs/08-ethics.md) | 披露、编造、"人性化"工具、模仿真人 |
+| [第九章 技术写作样例](docs/09-tech-writing.md) | 阮一峰、陈皓（酷壳）、美团技术团队的文章写法统计，以及对写技术文章的启示 |
 
 ## 诊断工具 `aiflavor`
 
@@ -84,6 +85,7 @@ tools/aiflavor 诊断工具和中英文词表
 tests/         单元测试（python -m unittest discover -s tests）
 experiment/    对照实验的脚本、78 篇模型输出、逐篇分数
 examples/      改稿前后的示例
+corpus/        技术写作样例：阮一峰全文（CC BY-NC-ND），其他来源只有索引和统计
 ```
 
 ## 关于这个仓库是怎么写的
@@ -95,3 +97,4 @@ examples/      改稿前后的示例
 - 代码（`tools/`、`tests/`、`experiment/`）：[MIT](LICENSE)
 - 文字（`docs/`）：[CC BY 4.0](LICENSE-docs)
 - 实验用的人写散文作者均已去世 50 年以上，原文不放进仓库，用 `experiment/fetch_human.py` 从维基文库下载。
+- `corpus/ruanyifeng/` 的文章版权归阮一峰，按原文的"自由转载-非商用-非衍生-保持署名"条件转载，**不适用**上面两种许可。
