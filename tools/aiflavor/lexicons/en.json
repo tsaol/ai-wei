@@ -1,0 +1,135 @@
+[
+  {
+    "pattern": "\\bdelv(e|es|ed|ing)\\b",
+    "label": "delve",
+    "type": "lexical",
+    "evidence": "research",
+    "note": "Kobak et al. 2025: top excess word in 2024 PubMed abstracts"
+  },
+  {
+    "pattern": "\\bunderscor(e|es|ed|ing)\\b",
+    "label": "underscore",
+    "type": "lexical",
+    "evidence": "research",
+    "note": "Kobak et al. 2025"
+  },
+  {
+    "pattern": "\\bshowcas(e|es|ed|ing)\\b",
+    "label": "showcase",
+    "type": "lexical",
+    "evidence": "research",
+    "note": "Kobak et al. 2025"
+  },
+  {
+    "pattern": "\\b(tapestry|testament to)\\b",
+    "label": "tapestry / testament to",
+    "type": "lexical",
+    "evidence": "multi",
+    "note": "Wikipedia: Signs of AI writing"
+  },
+  {
+    "pattern": "\\b(pivotal|intricate|intricacies|multifaceted|nuanced)\\b",
+    "label": "pivotal / intricate / multifaceted",
+    "type": "lexical",
+    "evidence": "research",
+    "note": "excess-vocabulary studies"
+  },
+  {
+    "pattern": "\\b(realm|landscape|ever-evolving|ever-changing)\\b",
+    "label": "realm / landscape / ever-evolving",
+    "type": "lexical",
+    "evidence": "multi",
+    "note": "practitioner lists"
+  },
+  {
+    "pattern": "\\b(foster(s|ed|ing)?|leverag(e|es|ed|ing)|harness(es|ed|ing)?|elevat(e|es|ed|ing)|unlock(s|ed|ing)?|empower(s|ed|ing)?)\\b",
+    "label": "foster / leverage / harness / elevate / unlock",
+    "type": "lexical",
+    "evidence": "multi",
+    "note": "corporate-AI verbs"
+  },
+  {
+    "pattern": "\\b(seamless(ly)?|robust|cutting-edge|game-changer|transformative)\\b",
+    "label": "seamless / robust / transformative",
+    "type": "lexical",
+    "evidence": "multi",
+    "note": "promotional adjectives"
+  },
+  {
+    "pattern": "\\bembark(s|ed|ing)? on\\b",
+    "label": "embark on",
+    "type": "lexical",
+    "evidence": "multi",
+    "note": ""
+  },
+  {
+    "pattern": "\\bnavigat(e|es|ed|ing) the (complexities|challenges|landscape)\\b",
+    "label": "navigate the complexities",
+    "type": "lexical",
+    "evidence": "multi",
+    "note": ""
+  },
+  {
+    "pattern": "\\bin today'?s (fast-paced|digital|ever-changing|rapidly evolving)\\b",
+    "label": "in today's fast-paced world",
+    "type": "lexical",
+    "evidence": "multi",
+    "note": "stock opener"
+  },
+  {
+    "pattern": "\\bit'?s (important|worth|crucial) to (note|mention|remember)\\b",
+    "label": "it's important to note",
+    "type": "lexical",
+    "evidence": "multi",
+    "note": "filler hedge"
+  },
+  {
+    "pattern": "\\b(crucial|vital|essential) (role|part|to)\\b",
+    "label": "plays a crucial role",
+    "type": "lexical",
+    "evidence": "research",
+    "note": "crucial is an excess word (Kobak et al.)"
+  },
+  {
+    "pattern": "\\b(it'?s|this is|that'?s) not (just |only |merely )?(about )?[^.;:!?]{1,40}[,;—–-]+ (it'?s|but|this is)\\b",
+    "label": "It's not X, it's Y",
+    "type": "syntax",
+    "evidence": "multi",
+    "note": "negative parallelism"
+  },
+  {
+    "pattern": "\\bnot (only|just) [^.;!?]{1,40} but (also )?\\b",
+    "label": "not only X but also Y",
+    "type": "syntax",
+    "evidence": "multi",
+    "note": ""
+  },
+  {
+    "pattern": "(?:^|(?<=[.!?])\\s+)(in conclusion|in summary|overall|ultimately|to sum up)\\b",
+    "label": "In conclusion",
+    "type": "structure",
+    "evidence": "multi",
+    "note": "summary paragraph opener"
+  },
+  {
+    "pattern": "(?:^|(?<=[.!?])\\s+)(moreover|furthermore|additionally|in addition)\\b",
+    "label": "Moreover / Furthermore",
+    "type": "structure",
+    "evidence": "multi",
+    "note": "connector at sentence start"
+  },
+  {
+    "pattern": "\\b(let'?s dive in|dive (deep )?into|deep dive)\\b",
+    "label": "let's dive in",
+    "type": "lexical",
+    "evidence": "multi",
+    "note": ""
+  },
+  {
+    "pattern": "\\b(i hope this helps|great question|certainly!|absolutely!)",
+    "label": "chatbot pleasantries",
+    "type": "content",
+    "evidence": "multi",
+    "note": "leftover assistant voice"
+  }
+]

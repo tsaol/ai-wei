@@ -1,0 +1,415 @@
+[
+  {
+    "pattern": "值得(?:注意|一提|关注)的是",
+    "label": "值得注意的是",
+    "type": "lexical",
+    "evidence": "multi",
+    "note": "强调却不加信息；lieflat 实测'形式主语'仅0.02/千字，单项弱"
+  },
+  {
+    "pattern": "综上所述|总而言之",
+    "label": "综上所述/总而言之",
+    "type": "lexical",
+    "evidence": "multi",
+    "note": "总结套话；GPT-3.5 时代显著，新模型少用"
+  },
+  {
+    "pattern": "由此可见|不难(?:看出|发现)",
+    "label": "由此可见/不难看出",
+    "type": "lexical",
+    "evidence": "multi",
+    "note": "简圣宇列为空洞收尾套话"
+  },
+  {
+    "pattern": "具有(?:重要|深远|重大)(?:的)?(?:意义|影响|价值)",
+    "label": "具有重要意义",
+    "type": "content",
+    "evidence": "multi",
+    "note": "结尾拔高；只在空洞时改"
+  },
+  {
+    "pattern": "赋能",
+    "label": "赋能",
+    "type": "lexical",
+    "evidence": "multi",
+    "note": "公文/行业大词；行业固定用语可保留"
+  },
+  {
+    "pattern": "助力(?=[一-鿿])",
+    "label": "助力",
+    "type": "lexical",
+    "evidence": "multi",
+    "note": "动词用法，常与赋能/打造连用"
+  },
+  {
+    "pattern": "深度融合|深度赋能|深度剖析",
+    "label": "深度X",
+    "type": "lexical",
+    "evidence": "multi",
+    "note": "'深度'修饰抽象动词"
+  },
+  {
+    "pattern": "全方位|多维度|多层次|全链条|全流程",
+    "label": "全方位/多维度",
+    "type": "lexical",
+    "evidence": "single",
+    "note": "范围大词；公文中常见，误报风险高"
+  },
+  {
+    "pattern": "(?:生态)?闭环|抓手|底层逻辑",
+    "label": "闭环/抓手/底层逻辑",
+    "type": "lexical",
+    "evidence": "multi",
+    "note": "互联网黑话，人类也常用，仅作提示"
+  },
+  {
+    "pattern": "重塑|打造(?=[一-鿿]{0,6}(?:生态|体系|格局|平台))",
+    "label": "重塑/打造X生态",
+    "type": "lexical",
+    "evidence": "multi",
+    "note": "空洞大词"
+  },
+  {
+    "pattern": "至关重要|不可或缺|不可忽视|举足轻重",
+    "label": "至关重要类",
+    "type": "lexical",
+    "evidence": "multi",
+    "note": "程度大词"
+  },
+  {
+    "pattern": "鉴于(?:此|上述)|基于此",
+    "label": "鉴于此/基于此",
+    "type": "lexical",
+    "evidence": "multi",
+    "note": "生硬连接"
+  },
+  {
+    "pattern": "众所周知",
+    "label": "众所周知",
+    "type": "lexical",
+    "evidence": "single",
+    "note": "套路开场"
+  },
+  {
+    "pattern": "无疑(?:是|地)",
+    "label": "这无疑是",
+    "type": "lexical",
+    "evidence": "single",
+    "note": "断言加强词"
+  },
+  {
+    "pattern": "量子纠缠|熵增|解构|光谱|赛博",
+    "label": "技术意象词",
+    "type": "lexical",
+    "evidence": "multi",
+    "note": "小红书网友最敏感的'技术字眼'，DeepSeek 文风常见"
+  },
+  {
+    "pattern": "(?:智慧|时代|人生|力量)(?:的)?(?:光芒|洪流|长河|篇章|画卷)",
+    "label": "宏大意象搭配",
+    "type": "rhetoric",
+    "evidence": "single",
+    "note": "RUC 实验：AI 作文高频'智慧/时代/人生/力量'"
+  },
+  {
+    "pattern": "深入(?:探索|探讨|思考)的(?:重要)?(?:议题|问题)",
+    "label": "需要深入思考的重要议题",
+    "type": "lexical",
+    "evidence": "single",
+    "note": "科普中国例：AI 版'生存还是毁灭'"
+  },
+  {
+    "pattern": "说白了",
+    "label": "说白了(起手)",
+    "type": "lexical",
+    "evidence": "single",
+    "note": "lieflat 实测 AI 3.2倍；去AI味指南反而推荐它"
+  },
+  {
+    "pattern": "不是[^。！？；\\n]{1,25}[，,]\\s*而是",
+    "label": "不是……而是……",
+    "type": "syntax",
+    "evidence": "research",
+    "note": "lieflat 实测 3.4倍；GPT 最重"
+  },
+  {
+    "pattern": "(?:这)?不仅仅?是[^。！？\\n]{1,25}[，,]\\s*(?:更|而且|还)是",
+    "label": "不仅是……更是……",
+    "type": "syntax",
+    "evidence": "multi",
+    "note": "否定式拔高"
+  },
+  {
+    "pattern": "不仅[^。！？\\n]{1,30}[，,]\\s*(?:而且|更|还)[^。！？\\n]{1,30}[，,]\\s*更",
+    "label": "不仅A而且B更C",
+    "type": "syntax",
+    "evidence": "multi",
+    "note": "三层递进"
+  },
+  {
+    "pattern": "(?:在|随着)[^。！？，\\n]{2,20}(?:的)?(?:背景下|时代|浪潮中|大潮中)",
+    "label": "在……背景下/随着……",
+    "type": "syntax",
+    "evidence": "multi",
+    "note": "套路开场，背景本身有用时保留"
+  },
+  {
+    "pattern": "在这个(?:快速|飞速|日新月异)[^。！？，\\n]{0,10}(?:时代|世界)",
+    "label": "在这个快速发展的时代",
+    "type": "syntax",
+    "evidence": "multi",
+    "note": "开场铺垫"
+  },
+  {
+    "pattern": "从[^。！？，\\n]{2,12}[，,]?\\s*到[^。！？，\\n]{2,12}[，,]\\s*从[^。！？，\\n]{2,12}[，,]?\\s*到",
+    "label": "从X到Y，从A到B",
+    "type": "rhetoric",
+    "evidence": "multi",
+    "note": "虚假范围叠用"
+  },
+  {
+    "pattern": "这意味着",
+    "label": "这意味着",
+    "type": "syntax",
+    "evidence": "research",
+    "note": "lieflat 翻译腔五种之一"
+  },
+  {
+    "pattern": "当[^。！？\\n]{2,30}时[，,]",
+    "label": "当……时",
+    "type": "syntax",
+    "evidence": "single",
+    "note": "lieflat 翻译腔五种之一；人类也常用，单次不判（人也常用，权重最低）"
+  },
+  {
+    "pattern": "在某种(?:意义|程度)上(?:说|来说|讲)?",
+    "label": "在某种意义上",
+    "type": "syntax",
+    "evidence": "multi",
+    "note": "翻译腔；lieflat 实测太少未收"
+  },
+  {
+    "pattern": "(?:扮演|起到)(?:着)?[^。！？，\\n]{0,8}(?:的)?(?:角色|作用)",
+    "label": "扮演……角色",
+    "type": "syntax",
+    "evidence": "single",
+    "note": "翻译腔；lieflat 实测<0.03/千字已删"
+  },
+  {
+    "pattern": "(?:大量|诸多)(?:实践|研究|事实)(?:证明|表明)|相关研究(?:表明|显示)|有研究(?:发现|表明)",
+    "label": "相关研究表明(无出处)",
+    "type": "content",
+    "evidence": "multi",
+    "note": "检查是否给了出处"
+  },
+  {
+    "pattern": "所谓[^，。\\n]{1,10}[，,]\\s*是指",
+    "label": "所谓X，是指",
+    "type": "content",
+    "evidence": "single",
+    "note": "万能定义"
+  },
+  {
+    "pattern": "(?:希望|但愿)(?:这些|以上|本文)[^。\\n]{0,10}(?:对你|对您|能)(?:有所)?帮助",
+    "label": "希望对你有帮助",
+    "type": "content",
+    "evidence": "multi",
+    "note": "聊天残留结尾"
+  },
+  {
+    "pattern": "让我们(?:一起|共同)",
+    "label": "让我们一起",
+    "type": "content",
+    "evidence": "single",
+    "note": "号召式收尾"
+  },
+  {
+    "pattern": "未来可期|前景(?:广阔|光明)|未来已来",
+    "label": "未来可期",
+    "type": "content",
+    "evidence": "single",
+    "note": "唐文稳列为'多项目提到但无频率数据'"
+  },
+  {
+    "pattern": "首先[，,][\\s\\S]{0,300}?其次[，,]",
+    "label": "首先……其次",
+    "type": "structure",
+    "evidence": "multi",
+    "note": "lieflat：句首'首先，'仅2倍，最弱形态；小标题序数3.1倍"
+  },
+  {
+    "pattern": "(?m)^\\s*(?:第[一二三四五六七八九十]+(?:[、，,:：]|点|部分|步)|[一二三四五六七八九十]+、)[^\\n。！？]{0,20}$",
+    "label": "序数小标题",
+    "type": "structure",
+    "evidence": "research",
+    "note": "lieflat 3.1倍"
+  },
+  {
+    "pattern": "一是[^。；\\n]{2,40}[；;][^。]{0,60}二是[^。；\\n]{2,40}[；;][^。]{0,60}三是",
+    "label": "一是/二是/三是",
+    "type": "structure",
+    "evidence": "single",
+    "note": "冒号+分号整齐罗列；公文常见"
+  },
+  {
+    "pattern": "(?:有|包括|分为|主要有)(?:以下|如下)?(?:几|[二三四五六七八九十两])(?:种|个|类|点|方面)[^。\\n]{0,8}[:：]",
+    "label": "有以下几种情况：",
+    "type": "structure",
+    "evidence": "research",
+    "note": "lieflat 空转句引列表 9.4倍；唐文稳：65% Claude 回答这样起头"
+  },
+  {
+    "pattern": "(?:核心|关键|本质|重点|秘诀)(?:就)?(?:是|在于)[:：]",
+    "label": "核心是：",
+    "type": "structure",
+    "evidence": "research",
+    "note": "lieflat 提示语冒号 3.8倍"
+  },
+  {
+    "pattern": "(?m)^\\s*(?:关键在于|核心在于|问题在于|真正的(?:问题|关键)(?:在于|是))",
+    "label": "段首零主语评论",
+    "type": "structure",
+    "evidence": "research",
+    "note": "lieflat 最强一条 4.4倍，补'这'即可"
+  },
+  {
+    "pattern": "(?m)^\\s*\\*\\*[^*\\n]{1,20}\\*\\*[:：]",
+    "label": "加粗小标题+冒号",
+    "type": "structure",
+    "evidence": "multi",
+    "note": "lieflat 实测人类组间不一致，单独不判"
+  },
+  {
+    "pattern": "(?m)^\\s*[✅❌✨\\U0001F449\\U0001F4A1\\U0001F525\\U0001F680⭐\\U0001F4CC\\U0001F31F]\\s*\\S",
+    "label": "emoji 列表项",
+    "type": "structure",
+    "evidence": "single",
+    "note": "小红书体常见；❌ 有时承载'错误做法'语义，不可直接删"
+  },
+  {
+    "pattern": "(?m)^\\s*(?:总结|结语|写在最后|小结)\\s*[:：]?\\s*$",
+    "label": "总结段标题",
+    "type": "structure",
+    "evidence": "multi",
+    "note": "总分总结构收尾"
+  },
+  {
+    "pattern": "——[^——\\n]{1,30}——",
+    "label": "成对破折号插入语",
+    "type": "rhetoric",
+    "evidence": "research",
+    "note": "lieflat 破折号 3.0倍但人类组间差百倍；RUC 实验无显著差异；模型间差一个数量级"
+  },
+  {
+    "pattern": "不是[^。；\\n]{2,15}[，,]而是[^。；\\n]{2,15}[；;]\\s*不是[^。；\\n]{2,15}[，,]而是",
+    "label": "连续'不是…而是'排比",
+    "type": "rhetoric",
+    "evidence": "multi",
+    "note": "搜狐/古籍例"
+  },
+  {
+    "pattern": "以[^，。\\n]{1,4}为[^，。\\n]{1,4}[，,]\\s*以[^，。\\n]{1,4}为|[一-鿿]{1,3}以[一-鿿]{1,3}其[一-鿿]{1,2}[，,][一-鿿]{1,3}以[一-鿿]{1,3}其[一-鿿]{1,2}",
+    "label": "以X为Y，以A为B 对仗",
+    "type": "rhetoric",
+    "evidence": "research",
+    "note": "RUC 实验：AI 对偶句平均4次 vs 学生0.67次"
+  },
+  {
+    "pattern": "[一-鿿]{4}[、，][一-鿿]{4}[、，][一-鿿]{4}[、，][一-鿿]{4}",
+    "label": "四字格连排",
+    "type": "rhetoric",
+    "evidence": "single",
+    "note": "误报风险高，只做提示"
+  },
+  {
+    "pattern": "(?:[一-鿿]{2,6}、){5,}[一-鿿]{2,6}",
+    "label": "顿号长罗列",
+    "type": "rhetoric",
+    "evidence": "research",
+    "note": "lieflat 顿号罗列 1.8倍"
+  },
+  {
+    "pattern": "“[^”]{2,12}”[^“。\\n]{1,10}“[^”]{2,12}”[^“。\\n]{1,10}“[^”]{2,12}”",
+    "label": "引号造词叠用",
+    "type": "rhetoric",
+    "evidence": "single",
+    "note": "搜狐/古籍例；RUC 实验人类引号反而更多"
+  },
+  {
+    "pattern": "不是[^。\\n]{1,12}，?(?:也)?不是[^。\\n]{1,12}，?而是",
+    "label": "不是A不是B而是C",
+    "type": "rhetoric",
+    "evidence": "multi",
+    "note": "翻案腔变体"
+  },
+  {
+    "pattern": "一方面[^。！？\\n]{1,60}另一方面",
+    "label": "一方面……另一方面",
+    "type": "syntax",
+    "evidence": "multi",
+    "note": "过度平衡"
+  },
+  {
+    "pattern": "(无论是|不论是)[^。！？\\n]{1,30}还是[^。！？\\n]{1,30}[，,]\\s*(都|均)",
+    "label": "无论是……还是……都",
+    "type": "syntax",
+    "evidence": "multi",
+    "note": "全覆盖式枚举"
+  },
+  {
+    "pattern": "(发挥着?|起到了?)[^。！？，\\n]{0,6}(重要|关键|积极|不可或缺)的?作用",
+    "label": "发挥着重要作用",
+    "type": "lexical",
+    "evidence": "multi",
+    "note": "对应英文 plays a crucial role"
+  },
+  {
+    "pattern": "(不可否认|毋庸置疑|显而易见)",
+    "label": "毋庸置疑 / 显而易见",
+    "type": "lexical",
+    "evidence": "multi",
+    "note": "强调词堆砌"
+  },
+  {
+    "pattern": "(展望未来|面向未来)",
+    "label": "展望未来",
+    "type": "content",
+    "evidence": "multi",
+    "note": "空泛的未来升华"
+  },
+  {
+    "pattern": "携手(共进|同行|并进)",
+    "label": "携手共进",
+    "type": "content",
+    "evidence": "multi",
+    "note": "号召式结尾"
+  },
+  {
+    "pattern": "(在当今社会|当今时代)",
+    "label": "在当今社会",
+    "type": "lexical",
+    "evidence": "multi",
+    "note": "对应 in today's fast-paced world"
+  },
+  {
+    "pattern": "(^|[。！？\\n])\\s*(总之|总的来说)[，,]",
+    "label": "总之（句首）",
+    "type": "structure",
+    "evidence": "multi",
+    "note": "结尾总结套话"
+  },
+  {
+    "pattern": "不仅[^。！？；\\n]{1,30}[，,]\\s*(更|还)",
+    "label": "不仅……更……",
+    "type": "syntax",
+    "evidence": "multi",
+    "note": "递进套路"
+  },
+  {
+    "pattern": "(随着|伴随着)[^。！？，,\\n]{2,30}的(不断|快速|飞速|日益)?(发展|进步|普及|深入)",
+    "label": "随着……的发展",
+    "type": "lexical",
+    "evidence": "multi",
+    "note": "万能开头"
+  }
+]

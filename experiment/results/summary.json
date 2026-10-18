@@ -1,0 +1,252 @@
+{
+ "human": {
+  "n": 13,
+  "score_mean": 13.6,
+  "score_median": 12.9,
+  "chars_median": 1275,
+  "hits_per_k": 1.4,
+  "cv_mean": 0.602,
+  "short_share": 0.11,
+  "long_share": 0.073,
+  "markers": 0.149,
+  "uniformity": 0.081,
+  "template": 0.025,
+  "punctuation": 0.302,
+  "repetition": 0.217,
+  "vagueness": 0.12,
+  "copy_max": 0
+ },
+ "all/plain": {
+  "n": 39,
+  "score_mean": 13.2,
+  "score_median": 11.7,
+  "chars_median": 1377,
+  "hits_per_k": 0.87,
+  "cv_mean": 0.513,
+  "short_share": 0.088,
+  "long_share": 0.032,
+  "markers": 0.099,
+  "uniformity": 0.259,
+  "template": 0.0,
+  "punctuation": 0.269,
+  "repetition": 0.058,
+  "vagueness": 0.126,
+  "copy_max": 0
+ },
+ "all/deai": {
+  "n": 39,
+  "score_mean": 5.4,
+  "score_median": 4.4,
+  "chars_median": 1306,
+  "hits_per_k": 0.47,
+  "cv_mean": 0.622,
+  "short_share": 0.19,
+  "long_share": 0.025,
+  "markers": 0.043,
+  "uniformity": 0.048,
+  "template": 0.004,
+  "punctuation": 0.26,
+  "repetition": 0.01,
+  "vagueness": 0.021,
+  "copy_max": 0
+ },
+ "gpt/deai": {
+  "n": 13,
+  "score_mean": 4.0,
+  "score_median": 3.3,
+  "chars_median": 1394,
+  "hits_per_k": 0.2,
+  "cv_mean": 0.594,
+  "short_share": 0.226,
+  "long_share": 0.006,
+  "markers": 0.013,
+  "uniformity": 0.052,
+  "template": 0.0,
+  "punctuation": 0.248,
+  "repetition": 0.002,
+  "vagueness": 0.0,
+  "copy_max": 0
+ },
+ "gpt/plain": {
+  "n": 13,
+  "score_mean": 11.5,
+  "score_median": 11.6,
+  "chars_median": 1448,
+  "hits_per_k": 0.54,
+  "cv_mean": 0.471,
+  "short_share": 0.103,
+  "long_share": 0.007,
+  "markers": 0.059,
+  "uniformity": 0.368,
+  "template": 0.0,
+  "punctuation": 0.153,
+  "repetition": 0.003,
+  "vagueness": 0.053,
+  "copy_max": 0
+ },
+ "kimi/deai": {
+  "n": 13,
+  "score_mean": 6.9,
+  "score_median": 6.2,
+  "chars_median": 1243,
+  "hits_per_k": 0.62,
+  "cv_mean": 0.655,
+  "short_share": 0.182,
+  "long_share": 0.035,
+  "markers": 0.07,
+  "uniformity": 0.015,
+  "template": 0.012,
+  "punctuation": 0.312,
+  "repetition": 0.019,
+  "vagueness": 0.062,
+  "copy_max": 0
+ },
+ "kimi/plain": {
+  "n": 13,
+  "score_mean": 16.3,
+  "score_median": 15.2,
+  "chars_median": 1314,
+  "hits_per_k": 1.18,
+  "cv_mean": 0.529,
+  "short_share": 0.08,
+  "long_share": 0.041,
+  "markers": 0.126,
+  "uniformity": 0.221,
+  "template": 0.0,
+  "punctuation": 0.424,
+  "repetition": 0.075,
+  "vagueness": 0.251,
+  "copy_max": 0
+ },
+ "opus/deai": {
+  "n": 13,
+  "score_mean": 5.4,
+  "score_median": 4.4,
+  "chars_median": 1343,
+  "hits_per_k": 0.58,
+  "cv_mean": 0.615,
+  "short_share": 0.163,
+  "long_share": 0.034,
+  "markers": 0.046,
+  "uniformity": 0.077,
+  "template": 0.0,
+  "punctuation": 0.218,
+  "repetition": 0.009,
+  "vagueness": 0.0,
+  "copy_max": 0
+ },
+ "opus/plain": {
+  "n": 13,
+  "score_mean": 11.7,
+  "score_median": 10.8,
+  "chars_median": 1377,
+  "hits_per_k": 0.88,
+  "cv_mean": 0.538,
+  "short_share": 0.082,
+  "long_share": 0.047,
+  "markers": 0.111,
+  "uniformity": 0.189,
+  "template": 0.0,
+  "punctuation": 0.23,
+  "repetition": 0.098,
+  "vagueness": 0.073,
+  "copy_max": 0
+ },
+ "auc": {
+  "all/plain": 0.464,
+  "all/deai": 0.091,
+  "gpt/deai": 0.036,
+  "gpt/plain": 0.364,
+  "kimi/deai": 0.148,
+  "kimi/plain": 0.645,
+  "opus/deai": 0.089,
+  "opus/plain": 0.385
+ },
+ "auc_by_signal_plain": {
+  "markers": 0.355,
+  "uniformity": 0.815,
+  "template": 0.385,
+  "punctuation": 0.41,
+  "repetition": 0.323,
+  "vagueness": 0.515,
+  "hits": 0.346,
+  "low_cv": 0.815
+ },
+ "deai_paired": {
+  "n": 39,
+  "mean_delta": -7.7,
+  "lower_in": 36
+ },
+ "top_markers": {
+  "human": [
+   [
+    "四字格连排",
+    12
+   ],
+   [
+    "成对破折号插入语",
+    5
+   ],
+   [
+    "从X到Y，从A到B",
+    2
+   ],
+   [
+    "综上所述/总而言之",
+    1
+   ],
+   [
+    "顿号长罗列",
+    1
+   ],
+   [
+    "有以下几种情况：",
+    1
+   ]
+  ],
+  "deai": [
+   [
+    "四字格连排",
+    17
+   ],
+   [
+    "成对破折号插入语",
+    4
+   ],
+   [
+    "不是……而是……",
+    1
+   ],
+   [
+    "有以下几种情况：",
+    1
+   ]
+  ],
+  "plain": [
+   [
+    "四字格连排",
+    21
+   ],
+   [
+    "不是……而是……",
+    14
+   ],
+   [
+    "成对破折号插入语",
+    6
+   ],
+   [
+    "顿号长罗列",
+    1
+   ],
+   [
+    "从X到Y，从A到B",
+    1
+   ],
+   [
+    "当……时",
+    1
+   ]
+  ]
+ }
+}
